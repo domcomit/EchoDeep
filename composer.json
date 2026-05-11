@@ -1,0 +1,30 @@
+{
+    "name": "mariwatts/echodeep",
+    "description": "EchoDeep - A powerful PHP application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Echodeep\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Echodeep\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mariwatts"
+        }
+    ]
+}
